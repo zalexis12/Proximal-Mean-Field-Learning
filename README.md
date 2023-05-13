@@ -3,6 +3,6 @@ The folder BinaryClassificationWDBCDataSet contains all the material necessary t
 
 The folder BinaryClassificationOnJetson contains all the material necessary to complete the four binary classifications run on the Jetson TX2. wdbc_classification.py repeats the experiment run via the code in BinaryClassificationWDBCDataSet, with a vastly improved runtime. In the case of banana_classification.py, diabetes_classification.py, and two_norm_classification.py, running the provided files on a Jetson TX2 completes the corresponding classification problem, reporting the weighted and unweighted accuracy in the terminal.
 
-The folder MultiClassTestCaseOnJetson likewise contains all the needed material to run the test case described in Section 5. Running semeion_classification.py stores the weighted and unweighted risk values at each step and the final values of theta and rho.
+The folder MultiClassTestCaseOnJetson likewise contains all the needed material to run the test case described in Section 5. Running semeion_classification.py stores the weighted and unweighted risk values at each step and the final values of theta and rho. For reference, we have included our results in .dat files and the code needed to create the corresponding figures in the subfolder Figures.
 
 Please note that the code in BinaryClassificationOnJetson and MultiClassTestCaseOnJetson is not designed to run on systems other than the Jetson TX2.
